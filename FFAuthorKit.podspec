@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFAuthorKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of FFAuthorKit.'
 
 # This description is used to generate tags and improve search results.
@@ -44,10 +44,7 @@ TODO: Add long description of the pod here.
   s.dependency 'ReactiveCocoa'
   
   s.dependency 'FFAPIs'
-  s.dependency 'FFReformerKeysKit'
-  s.dependency 'FFMainViewKit'
-  s.dependency 'FFToolsKit'
-  s.dependency 'FFCategoryKit'
-  s.dependency 'FFConfigsKit'
+  s.dependency 'FFWdiget'
+  s.dependency 'FFUtils'
 
 end

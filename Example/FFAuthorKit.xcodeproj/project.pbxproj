@@ -23,6 +23,12 @@
 		6477AF72BD42B37F91EA65F5 /* Pods_FFAuthorKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB3EE11835F7684DAC39BFD /* Pods_FFAuthorKit_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A435D897245AEBF40059FA1B /* FFAuthorController.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D88A245AEBF40059FA1B /* FFAuthorController.m */; };
+		A435D898245AEBF40059FA1B /* FFAuthorDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D88B245AEBF40059FA1B /* FFAuthorDetailController.m */; };
+		A435D899245AEBF40059FA1B /* AuthorAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D88C245AEBF40059FA1B /* AuthorAPIRequest.m */; };
+		A435D89A245AEBF40059FA1B /* FFAuthorListReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D88D245AEBF40059FA1B /* FFAuthorListReformer.m */; };
+		A435D89B245AEBF40059FA1B /* FFAuthorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D88E245AEBF40059FA1B /* FFAuthorCell.m */; };
+		A435D89C245AEBF40059FA1B /* Target_Author.m in Sources */ = {isa = PBXBuildFile; fileRef = A435D890245AEBF40059FA1B /* Target_Author.m */; };
 		DFFADA7E4F3DAAC03F84F758 /* Pods_FFAuthorKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8764E66B1AC9488D9ACB0 /* Pods_FFAuthorKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +70,18 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		901809C208370F41E82169B7 /* Pods-FFAuthorKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFAuthorKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FFAuthorKit_Tests/Pods-FFAuthorKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9963F772603224FF1C84CDF3 /* FFAuthorKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFAuthorKit.podspec; path = ../FFAuthorKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A435D888245AEBF40059FA1B /* FFAuthorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAuthorCell.h; sourceTree = "<group>"; };
+		A435D889245AEBF40059FA1B /* Target_Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Author.h; sourceTree = "<group>"; };
+		A435D88A245AEBF40059FA1B /* FFAuthorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAuthorController.m; sourceTree = "<group>"; };
+		A435D88B245AEBF40059FA1B /* FFAuthorDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAuthorDetailController.m; sourceTree = "<group>"; };
+		A435D88C245AEBF40059FA1B /* AuthorAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorAPIRequest.m; sourceTree = "<group>"; };
+		A435D88D245AEBF40059FA1B /* FFAuthorListReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAuthorListReformer.m; sourceTree = "<group>"; };
+		A435D88E245AEBF40059FA1B /* FFAuthorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAuthorCell.m; sourceTree = "<group>"; };
+		A435D88F245AEBF40059FA1B /* FFAuthorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAuthorController.h; sourceTree = "<group>"; };
+		A435D890245AEBF40059FA1B /* Target_Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Author.m; sourceTree = "<group>"; };
+		A435D891245AEBF40059FA1B /* AuthorAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorAPIRequest.h; sourceTree = "<group>"; };
+		A435D892245AEBF40059FA1B /* FFAuthorDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAuthorDetailController.h; sourceTree = "<group>"; };
+		A435D893245AEBF40059FA1B /* FFAuthorListReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAuthorListReformer.h; sourceTree = "<group>"; };
 		BDE9E7DECAB511D557916B15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E7970A2B5E4B417CD21823EB /* Pods-FFAuthorKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFAuthorKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-FFAuthorKit_Tests/Pods-FFAuthorKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EEB3EE11835F7684DAC39BFD /* Pods_FFAuthorKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFAuthorKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +116,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				A435D885245AEBF40059FA1B /* FFAuthorKit */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for FFAuthorKit */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -183,6 +202,50 @@
 				005C2A6A32DE1EAD69388CFC /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A435D885245AEBF40059FA1B /* FFAuthorKit */ = {
+			isa = PBXGroup;
+			children = (
+				A435D886245AEBF40059FA1B /* Classes */,
+				A435D895245AEBF40059FA1B /* Assets */,
+			);
+			name = FFAuthorKit;
+			path = ../FFAuthorKit;
+			sourceTree = "<group>";
+		};
+		A435D886245AEBF40059FA1B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A435D887245AEBF40059FA1B /* author */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A435D887245AEBF40059FA1B /* author */ = {
+			isa = PBXGroup;
+			children = (
+				A435D889245AEBF40059FA1B /* Target_Author.h */,
+				A435D890245AEBF40059FA1B /* Target_Author.m */,
+				A435D88F245AEBF40059FA1B /* FFAuthorController.h */,
+				A435D88A245AEBF40059FA1B /* FFAuthorController.m */,
+				A435D891245AEBF40059FA1B /* AuthorAPIRequest.h */,
+				A435D88C245AEBF40059FA1B /* AuthorAPIRequest.m */,
+				A435D893245AEBF40059FA1B /* FFAuthorListReformer.h */,
+				A435D88D245AEBF40059FA1B /* FFAuthorListReformer.m */,
+				A435D888245AEBF40059FA1B /* FFAuthorCell.h */,
+				A435D88E245AEBF40059FA1B /* FFAuthorCell.m */,
+				A435D892245AEBF40059FA1B /* FFAuthorDetailController.h */,
+				A435D88B245AEBF40059FA1B /* FFAuthorDetailController.m */,
+			);
+			path = author;
+			sourceTree = "<group>";
+		};
+		A435D895245AEBF40059FA1B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		F647B3DCE4EA6E64D4C63C6F /* Pods */ = {
@@ -327,13 +390,8 @@
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/FFAPIs/FFAPIs.framework",
 				"${BUILT_PRODUCTS_DIR}/FFAuthorKit/FFAuthorKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FFCategoryKit/FFCategoryKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FFConfigsKit/FFConfigsKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FFMainViewKit/FFMainViewKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FFReformerKeysKit/FFReformerKeysKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FFToolsKit/FFToolsKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/FFUtils/FFUtils.framework",
+				"${BUILT_PRODUCTS_DIR}/FFWdiget/FFWdiget.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
@@ -345,13 +403,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAPIs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFAuthorKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFCategoryKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFConfigsKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFMainViewKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFReformerKeysKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFToolsKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFUtils.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFWdiget.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
@@ -392,8 +445,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A435D89B245AEBF40059FA1B /* FFAuthorCell.m in Sources */,
 				6003F59E195388D20070C39A /* FFAppDelegate.m in Sources */,
+				A435D899245AEBF40059FA1B /* AuthorAPIRequest.m in Sources */,
+				A435D89C245AEBF40059FA1B /* Target_Author.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
+				A435D897245AEBF40059FA1B /* FFAuthorController.m in Sources */,
+				A435D89A245AEBF40059FA1B /* FFAuthorListReformer.m in Sources */,
+				A435D898245AEBF40059FA1B /* FFAuthorDetailController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
