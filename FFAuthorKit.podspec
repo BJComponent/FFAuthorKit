@@ -30,21 +30,22 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FFAuthorKit/Classes/**/*'
+  s.resources = ['FFAuthorKit/Assets/*.bundle']
   
+  #  s.source_files = 'FFAuthorKit/Classes/**/*'
+
   # s.resource_bundles = {
   #   'FFAuthorKit' => ['FFAuthorKit/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'Masonry'
-  s.dependency 'YYWebImage'
-#  s.dependency 'ReactiveCocoa'
   
-  s.dependency 'FFAPIs'
-  s.dependency 'FFUtils'
-  s.dependency 'FFWdiget'
+  s.subspec 'Author' do |ss|
+     ss.source_files = 'FFAuthorKit/Classes/Author/*'
+     ss.dependency 'Masonry'
+     ss.dependency 'YYWebImage'
+     ss.dependency 'FFAPIs'
+     ss.dependency 'FFUtils'
+     ss.dependency 'FFWdiget'
+     ss.dependency 'FFSpecialKit_Category'
+  end
 
 end

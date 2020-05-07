@@ -10,11 +10,12 @@ target 'FFAuthorKit_Example' do
   
   pod 'Masonry'
   pod 'YYWebImage'
-#  pod 'ReactiveCocoa', '~> 2.5'
 
   pod 'FFAPIs', '~> 0.1.2'
-  pod 'FFUtils', '~> 0.1.3'
-  pod 'FFWdiget', '~> 0.1.0'
+  pod 'FFUtils', '~> 0.1.4'
+  pod 'FFWdiget', '~> 0.1.1'
+  
+  pod 'FFSpecialKit_Category'
 
   target 'FFAuthorKit_Tests' do
     inherit! :search_paths

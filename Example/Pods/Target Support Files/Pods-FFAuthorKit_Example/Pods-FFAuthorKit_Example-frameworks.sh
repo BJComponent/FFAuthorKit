@@ -162,8 +162,10 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFAPIs/FFAPIs.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFAuthorKit/FFAuthorKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FFSpecialKit_Category/FFSpecialKit_Category.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFUtils/FFUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFWdiget/FFWdiget.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
@@ -173,8 +175,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFAPIs/FFAPIs.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFAuthorKit/FFAuthorKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FFSpecialKit_Category/FFSpecialKit_Category.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFUtils/FFUtils.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFWdiget/FFWdiget.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
