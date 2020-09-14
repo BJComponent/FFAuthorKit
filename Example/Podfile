@@ -11,7 +11,7 @@ target 'FFAuthorKit_Example' do
   pod 'Masonry'
   pod 'YYWebImage'
 
-  pod 'FFAPIs', '~> 0.1.2'
+  pod 'FFAPIs', '~> 0.1.4'
   pod 'FFUtils', '~> 0.1.5'
   pod 'FFWdiget', '~> 0.1.1'
   
