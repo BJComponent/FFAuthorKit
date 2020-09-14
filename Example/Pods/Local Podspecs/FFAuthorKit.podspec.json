@@ -1,6 +1,6 @@
 {
   "name": "FFAuthorKit",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "A short description of FFAuthorKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/BJComponent/FFAuthorKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/BJComponent/FFAuthorKit.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "8.0"

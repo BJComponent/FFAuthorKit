@@ -12,7 +12,7 @@ target 'FFAuthorKit_Example' do
   pod 'YYWebImage'
 
   pod 'FFAPIs', '~> 0.1.2'
-  pod 'FFUtils', '~> 0.1.4'
+  pod 'FFUtils', '~> 0.1.5'
   pod 'FFWdiget', '~> 0.1.1'
   
   pod 'FFSpecialKit_Category'

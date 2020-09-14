@@ -17,9 +17,9 @@ PODS:
   - CTMediator (28)
   - FFAPIs (0.1.2):
     - AFNetworking
-  - FFAuthorKit (0.1.6):
-    - FFAuthorKit/Author (= 0.1.6)
-  - FFAuthorKit/Author (0.1.6):
+  - FFAuthorKit (0.1.7):
+    - FFAuthorKit/Author (= 0.1.7)
+  - FFAuthorKit/Author (0.1.7):
     - FFAPIs
     - FFSpecialKit_Category
     - FFUtils
@@ -29,7 +29,15 @@ PODS:
   - FFSpecialKit_Category (0.1.0):
     - CTMediator
     - FFAPIs
-  - FFUtils (0.1.4)
+  - FFUtils (0.1.5):
+    - FFUtils/Category (= 0.1.5)
+    - FFUtils/Configs (= 0.1.5)
+    - FFUtils/ReformerKeys (= 0.1.5)
+    - FFUtils/Tools (= 0.1.5)
+  - FFUtils/Category (0.1.5)
+  - FFUtils/Configs (0.1.5)
+  - FFUtils/ReformerKeys (0.1.5)
+  - FFUtils/Tools (0.1.5)
   - FFWdiget (0.1.1)
   - Masonry (1.1.0)
   - YYCache (1.0.4)
@@ -44,7 +52,7 @@ DEPENDENCIES:
   - FFAPIs (~> 0.1.2)
   - FFAuthorKit (from `../`)
   - FFSpecialKit_Category
-  - FFUtils (~> 0.1.4)
+  - FFUtils (~> 0.1.5)
   - FFWdiget (~> 0.1.1)
   - Masonry
   - YYWebImage
@@ -71,15 +79,15 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
   FFAPIs: 31b311de8d39294d435886a0cb7b4e7b61f29cf0
-  FFAuthorKit: 8823f133c9e10e5845a16db44e9825638ccdcd3e
+  FFAuthorKit: 0a40b7c10cd962299c261adbff8dd9e3939959b1
   FFSpecialKit_Category: bb7b5e84aec34498e88629f3c55503a8bf7be4f4
-  FFUtils: a8aab384fa412e33169bce9156f03ef7d9ae60dc
+  FFUtils: bb931393f38c1ad1aa6ffa89eba715475400f3a8
   FFWdiget: 6d7b6f092f42f8deb91fcb6681dbd4b373ef270c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 146ea622c758fbf135100b525d02bcf3e6ac89c8
+PODFILE CHECKSUM: 8e59db77c629115d6cd5c963deccfd676232f355
 
 COCOAPODS: 1.7.5
