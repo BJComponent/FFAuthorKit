@@ -12,13 +12,13 @@
 
 @implementation Target_Author
 
-- (UIViewController*)Action_authorDetailViewController:(NSDictionary*)params {
+- (UIViewController *)Action_authorDetailViewController:(NSDictionary *)params {
 
     return [[FFAuthorDetailController alloc] init];
 
 }
 
-- (NSDictionary*)Action_authorReformerWithOriginData:(NSDictionary*)params {
+- (NSDictionary *)Action_authorReformerWithOriginData:(NSDictionary *)params {
 
     FFAuthorListReformer *reformer = [[FFAuthorListReformer alloc] init];
 
@@ -26,13 +26,13 @@
 
 }
 
-- (NSDictionary *)Action_authorReformer:(NSDictionary*)params {
+- (NSDictionary *)Action_authorReformer:(NSDictionary *)params {
 
     return [[FFAuthorListReformer alloc] init];
 
 }
 
-- (APIRequest*)Action_authorAPIRequest:(NSDictionary*)params {
+- (APIRequest *)Action_authorAPIRequest:(NSDictionary *)params {
 
     return [[AuthorAPIRequest alloc] init];
 

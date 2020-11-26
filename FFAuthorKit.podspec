@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFAuthorKit'
-  s.version          = '0.1.6'
+  s.version          = '0.1.8'
   s.summary          = 'A short description of FFAuthorKit.'
 
 # This description is used to generate tags and improve search results.
@@ -39,13 +39,16 @@ TODO: Add long description of the pod here.
   # }
   
   s.subspec 'Author' do |ss|
-     ss.source_files = 'FFAuthorKit/Classes/Author/*'
-     ss.dependency 'Masonry'
-     ss.dependency 'YYWebImage'
-     ss.dependency 'FFAPIs'
-     ss.dependency 'FFUtils'
-     ss.dependency 'FFWdiget'
-     ss.dependency 'FFSpecialKit_Category'
+      ss.source_files = 'FFAuthorKit/Classes/Author/*'
+      ss.subspec 'Home' do |sss|
+          sss.source_files = 'FFAuthorKit/Classes/Author/Home/**/*.{h,m}'
+          ss.dependency 'Masonry'
+          ss.dependency 'YYWebImage'
+          ss.dependency 'FFAPIs'
+          ss.dependency 'FFUtils'
+          ss.dependency 'FFWdiget'
+          ss.dependency 'FFSpecialKit_Category'
+      end
   end
 
 end

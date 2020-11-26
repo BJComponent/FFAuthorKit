@@ -44,7 +44,13 @@
         "FFSpecialKit_Category": [
 
         ]
-      }
+      },
+      "subspecs": [
+        {
+          "name": "Home",
+          "source_files": "FFAuthorKit/Classes/Author/Home/**/*.{h,m}"
+        }
+      ]
     }
   ]
 }

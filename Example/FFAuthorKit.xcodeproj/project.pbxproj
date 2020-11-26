@@ -23,13 +23,6 @@
 		6477AF72BD42B37F91EA65F5 /* Pods_FFAuthorKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB3EE11835F7684DAC39BFD /* Pods_FFAuthorKit_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A4178CBD2462C5AA00DB6A98 /* FFAuthorController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4178CB32462C5AA00DB6A98 /* FFAuthorController.m */; };
-		A4178CBE2462C5AA00DB6A98 /* FFAuthorDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4178CB42462C5AA00DB6A98 /* FFAuthorDetailController.m */; };
-		A4178CBF2462C5AA00DB6A98 /* AuthorAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A4178CB52462C5AA00DB6A98 /* AuthorAPIRequest.m */; };
-		A4178CC02462C5AA00DB6A98 /* FFAuthorListReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4178CB62462C5AA00DB6A98 /* FFAuthorListReformer.m */; };
-		A4178CC12462C5AA00DB6A98 /* FFAuthorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4178CB72462C5AA00DB6A98 /* FFAuthorCell.m */; };
-		A4178CC22462C5AA00DB6A98 /* Target_Author.m in Sources */ = {isa = PBXBuildFile; fileRef = A4178CB92462C5AA00DB6A98 /* Target_Author.m */; };
-		A4178CC42462C5B300DB6A98 /* FFAuthorKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4178CC32462C5B300DB6A98 /* FFAuthorKit.bundle */; };
 		DFFADA7E4F3DAAC03F84F758 /* Pods_FFAuthorKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8764E66B1AC9488D9ACB0 /* Pods_FFAuthorKit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,19 +64,6 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		901809C208370F41E82169B7 /* Pods-FFAuthorKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFAuthorKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FFAuthorKit_Tests/Pods-FFAuthorKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9963F772603224FF1C84CDF3 /* FFAuthorKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFAuthorKit.podspec; path = ../FFAuthorKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4178CB12462C5AA00DB6A98 /* FFAuthorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAuthorCell.h; sourceTree = "<group>"; };
-		A4178CB22462C5AA00DB6A98 /* Target_Author.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Author.h; sourceTree = "<group>"; };
-		A4178CB32462C5AA00DB6A98 /* FFAuthorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAuthorController.m; sourceTree = "<group>"; };
-		A4178CB42462C5AA00DB6A98 /* FFAuthorDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAuthorDetailController.m; sourceTree = "<group>"; };
-		A4178CB52462C5AA00DB6A98 /* AuthorAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorAPIRequest.m; sourceTree = "<group>"; };
-		A4178CB62462C5AA00DB6A98 /* FFAuthorListReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAuthorListReformer.m; sourceTree = "<group>"; };
-		A4178CB72462C5AA00DB6A98 /* FFAuthorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFAuthorCell.m; sourceTree = "<group>"; };
-		A4178CB82462C5AA00DB6A98 /* FFAuthorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAuthorController.h; sourceTree = "<group>"; };
-		A4178CB92462C5AA00DB6A98 /* Target_Author.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Author.m; sourceTree = "<group>"; };
-		A4178CBA2462C5AA00DB6A98 /* AuthorAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorAPIRequest.h; sourceTree = "<group>"; };
-		A4178CBB2462C5AA00DB6A98 /* FFAuthorDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAuthorDetailController.h; sourceTree = "<group>"; };
-		A4178CBC2462C5AA00DB6A98 /* FFAuthorListReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFAuthorListReformer.h; sourceTree = "<group>"; };
-		A4178CC32462C5B300DB6A98 /* FFAuthorKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FFAuthorKit.bundle; sourceTree = "<group>"; };
 		BDE9E7DECAB511D557916B15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E7970A2B5E4B417CD21823EB /* Pods-FFAuthorKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFAuthorKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-FFAuthorKit_Tests/Pods-FFAuthorKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EEB3EE11835F7684DAC39BFD /* Pods_FFAuthorKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFAuthorKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +98,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				A435D885245AEBF40059FA1B /* FFAuthorKit */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for FFAuthorKit */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -204,51 +183,6 @@
 				005C2A6A32DE1EAD69388CFC /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		A4178CB02462C5AA00DB6A98 /* Author */ = {
-			isa = PBXGroup;
-			children = (
-				A4178CB22462C5AA00DB6A98 /* Target_Author.h */,
-				A4178CB92462C5AA00DB6A98 /* Target_Author.m */,
-				A4178CB82462C5AA00DB6A98 /* FFAuthorController.h */,
-				A4178CB32462C5AA00DB6A98 /* FFAuthorController.m */,
-				A4178CBB2462C5AA00DB6A98 /* FFAuthorDetailController.h */,
-				A4178CB42462C5AA00DB6A98 /* FFAuthorDetailController.m */,
-				A4178CBC2462C5AA00DB6A98 /* FFAuthorListReformer.h */,
-				A4178CB62462C5AA00DB6A98 /* FFAuthorListReformer.m */,
-				A4178CBA2462C5AA00DB6A98 /* AuthorAPIRequest.h */,
-				A4178CB52462C5AA00DB6A98 /* AuthorAPIRequest.m */,
-				A4178CB12462C5AA00DB6A98 /* FFAuthorCell.h */,
-				A4178CB72462C5AA00DB6A98 /* FFAuthorCell.m */,
-			);
-			path = Author;
-			sourceTree = "<group>";
-		};
-		A435D885245AEBF40059FA1B /* FFAuthorKit */ = {
-			isa = PBXGroup;
-			children = (
-				A435D886245AEBF40059FA1B /* Classes */,
-				A435D895245AEBF40059FA1B /* Assets */,
-			);
-			name = FFAuthorKit;
-			path = ../FFAuthorKit;
-			sourceTree = "<group>";
-		};
-		A435D886245AEBF40059FA1B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A4178CB02462C5AA00DB6A98 /* Author */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		A435D895245AEBF40059FA1B /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				A4178CC32462C5B300DB6A98 /* FFAuthorKit.bundle */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		F647B3DCE4EA6E64D4C63C6F /* Pods */ = {
@@ -344,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				A4178CC42462C5B300DB6A98 /* FFAuthorKit.bundle in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -451,14 +384,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4178CC12462C5AA00DB6A98 /* FFAuthorCell.m in Sources */,
 				6003F59E195388D20070C39A /* FFAppDelegate.m in Sources */,
-				A4178CBF2462C5AA00DB6A98 /* AuthorAPIRequest.m in Sources */,
-				A4178CC22462C5AA00DB6A98 /* Target_Author.m in Sources */,
 				6003F5A7195388D20070C39A /* FFViewController.m in Sources */,
-				A4178CBD2462C5AA00DB6A98 /* FFAuthorController.m in Sources */,
-				A4178CC02462C5AA00DB6A98 /* FFAuthorListReformer.m in Sources */,
-				A4178CBE2462C5AA00DB6A98 /* FFAuthorDetailController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
