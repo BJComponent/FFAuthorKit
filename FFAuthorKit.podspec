@@ -42,12 +42,12 @@ TODO: Add long description of the pod here.
       ss.source_files = 'FFAuthorKit/Classes/Author/*'
       ss.subspec 'Home' do |sss|
           sss.source_files = 'FFAuthorKit/Classes/Author/Home/**/*.{h,m}'
-          ss.dependency 'Masonry'
-          ss.dependency 'YYWebImage'
-          ss.dependency 'FFAPIs'
-          ss.dependency 'FFUtils'
-          ss.dependency 'FFWdiget'
-          ss.dependency 'FFSpecialKit_Category'
+          sss.dependency 'Masonry'
+          sss.dependency 'YYWebImage'
+          sss.dependency 'FFAPIs'
+          sss.dependency 'FFUtils'
+          sss.dependency 'FFWdiget'
+          sss.dependency 'FFSpecialKit_Category'
       end
   end
 

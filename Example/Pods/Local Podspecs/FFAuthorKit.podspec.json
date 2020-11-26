@@ -25,30 +25,30 @@
     {
       "name": "Author",
       "source_files": "FFAuthorKit/Classes/Author/*",
-      "dependencies": {
-        "Masonry": [
-
-        ],
-        "YYWebImage": [
-
-        ],
-        "FFAPIs": [
-
-        ],
-        "FFUtils": [
-
-        ],
-        "FFWdiget": [
-
-        ],
-        "FFSpecialKit_Category": [
-
-        ]
-      },
       "subspecs": [
         {
           "name": "Home",
-          "source_files": "FFAuthorKit/Classes/Author/Home/**/*.{h,m}"
+          "source_files": "FFAuthorKit/Classes/Author/Home/**/*.{h,m}",
+          "dependencies": {
+            "Masonry": [
+
+            ],
+            "YYWebImage": [
+
+            ],
+            "FFAPIs": [
+
+            ],
+            "FFUtils": [
+
+            ],
+            "FFWdiget": [
+
+            ],
+            "FFSpecialKit_Category": [
+
+            ]
+          }
         }
       ]
     }

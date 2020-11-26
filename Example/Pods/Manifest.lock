@@ -23,13 +23,7 @@ PODS:
   - FFAuthorKit (0.1.8):
     - FFAuthorKit/Author (= 0.1.8)
   - FFAuthorKit/Author (0.1.8):
-    - FFAPIs
     - FFAuthorKit/Author/Home (= 0.1.8)
-    - FFSpecialKit_Category
-    - FFUtils
-    - FFWdiget
-    - Masonry
-    - YYWebImage
   - FFAuthorKit/Author/Home (0.1.8):
     - FFAPIs
     - FFSpecialKit_Category
@@ -90,7 +84,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
   FFAPIs: dff1f870e9a245233372062115dcfdac942537d3
-  FFAuthorKit: 8b7d9c387e0a755871ae5d97cd9d461ecc59e07c
+  FFAuthorKit: 0eb18afdb8f4ee44b2a518ef8bb247eb6f96e469
   FFSpecialKit_Category: bb7b5e84aec34498e88629f3c55503a8bf7be4f4
   FFUtils: bb931393f38c1ad1aa6ffa89eba715475400f3a8
   FFWdiget: 6d7b6f092f42f8deb91fcb6681dbd4b373ef270c
